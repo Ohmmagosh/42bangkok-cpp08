@@ -6,7 +6,7 @@
 /*   By: psuanpro <psuanpro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/15 16:17:21 by psuanpro          #+#    #+#             */
-/*   Updated: 2023/06/16 16:15:42 by psuanpro         ###   ########.fr       */
+/*   Updated: 2023/06/30 23:16:20 by psuanpro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <vector>
 # include <iterator>
 # include <exception>
+# include <algorithm>
 
 template <typename T>
 int	easyfind(T& container, int num) {
@@ -25,6 +26,5 @@ int	easyfind(T& container, int num) {
 		throw std::out_of_range("value not found");
 	return (*ret);
 };
-
 
 #endif

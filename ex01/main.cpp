@@ -6,7 +6,7 @@
 /*   By: psuanpro <psuanpro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/15 16:16:52 by psuanpro          #+#    #+#             */
-/*   Updated: 2023/06/16 22:34:12 by psuanpro         ###   ########.fr       */
+/*   Updated: 2023/06/30 23:19:34 by psuanpro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ int main(void)
 		sp.addNumber(11);
 		std::cout << sp.shortestSpan() << std::endl;
 		// std::cout << sp.longestSpan() << std::endl;
+		std::cout << std::endl;
 	}
 	// 3 6 9 11 17
 	// {
